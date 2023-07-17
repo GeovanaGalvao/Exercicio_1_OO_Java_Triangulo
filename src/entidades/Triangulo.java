@@ -8,9 +8,9 @@ public class Triangulo {
 		this.ladoA = ladoA;
 		this.ladoB = ladoB;
 		this.ladoC = ladoC;
-		area = areaTriangulo();
+		area = calculoDaArea();
 	}
-	public double areaTriangulo() {
+	public double calculoDaArea() {
 		return Math.sqrt(((ladoA+ladoB+ladoC)/2)*(((ladoA+ladoB+ladoC)/2)-ladoA)*
 				(((ladoA+ladoB+ladoC)/2)-ladoB)*(((ladoA+ladoB+ladoC)/2)-ladoC));
 	}
